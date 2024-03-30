@@ -63,3 +63,28 @@ footer {
         display: block;
     }
 }
+
+/* Estilização do contêiner das imagens */
+.imagens-projeto {
+    display: flex;
+    justify-content: space-around; /* Espaçamento entre as imagens */
+    gap: 20px; /* Espaço entre as imagens */
+}
+
+/* Estilização das imagens */
+.imagem-projeto {
+    width: 48%; /* Ajuste a largura conforme necessário */
+    cursor: pointer; /* Indica que a imagem pode ser clicada */
+    transition: transform 0.3s ease; /* Suaviza a transição do zoom */
+}
+
+/* Efeito de zoom ao passar o mouse */
+.imagem-projeto:hover {
+    transform: scale(1.05); /* Aumenta ligeiramente o tamanho */
+}
+
+/* Estilização do link do GitHub */
+.codigo-github {
+    margin: 20px 0; /* Espaço antes e depois do link */
+    text-align: center; /* Centraliza o link */
+}
