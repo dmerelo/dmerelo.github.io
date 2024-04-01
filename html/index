@@ -1,0 +1,226 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Ezulu Priscilla Chinwendu Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+
+				<!-- Intro -->
+					<div id="intro">
+						<h1> Ezulu Priscilla Chinwendu <br />
+						Portfolio</h1>
+						<p>Data Analyst skilled in SQL, Advanced Excel, Power BI, Tableau, and Python <a href="https://www.linkedin.com/in/ezuluchinwe/">@EzuluPriscilla</a>.</p>
+						<ul class="actions">
+							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+						</ul>
+					</div>
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">Ezulu Priscilla Chinwendu</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li class="active"><a href="index.html">Projects</a></li>
+							
+						</ul>
+						<ul class="icons">
+							<li><a href="https://www.linkedin.com/in/ezuluchinwe/" class="icon brands alt fa-linkedin"><span class="label">linkedin</span></a></li>							
+							<li><a href="https://github.com/Ezulu-Chinwendu/" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Featured Post -->
+							<article class="post featured">
+								<header class="major">
+						
+									<h2><a href="https://github.com/Ezulu-Chinwendu/Makert_Basket_Analysis">Market Basket Analysis for E-Commerce<br />
+									</a></h2>
+									<p>I conducted a market basket analysis to delve into customer purchasing behavior within the project. By scrutinizing patterns, I pinpointed product combinations commonly bought together. This analysis equips the organization with valuable insights to enhance sales strategies and bolster customer satisfaction. The dataset encompassed 38,765 rows across 3 columns.</p>
+								</header>
+								<a href="https://github.com/Ezulu-Chinwendu/Makert_Basket_Analysis" class="image main"><img src="images/Basket1.jpg" alt="" /></a>
+								<ul class="actions special">
+									<li><a href="https://github.com/Ezulu-Chinwendu/Makert_Basket_Analysis" class="button large">View Project</a></li>
+								</ul>
+							</article>
+
+						<!-- Posts -->
+							<section class="posts">
+								<article>
+									<header>
+										
+										<h2><a href="https://github.com/Ezulu-Chinwendu/Hydraulic_Rig_System">Assessment Of Hydraulic Rig System<br />
+										</a></h2>
+									</header>
+									<a href="https://github.com/Ezulu-Chinwendu/Hydraulic_Rig_System" class="image fit"><img src="images/HydraulicRig.jpeg" alt="" /></a>
+									<p>In this project, I utilized Jupyter Notebook as a platform for conducting the analysis of a hydraulic test rig's condition assessment. The analysis involved examining multi-sensor data consisting of 20 observations and 2205 attributes, which had been experimentally obtained.</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/Ezulu-Chinwendu/Hydraulic_Rig_System" class="button">View Project</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										
+										<h2><a href="https://github.com/Ezulu-Chinwendu/fordgobike_analysis/blob/main/Part_I_exploration.ipynb">FordGoBike Data Analysis in Jupyter Notebook<br />
+										</a></h2>
+									</header>
+									<a href="" class="image fit"><img src="images/fordgobike.jpg" alt="" /></a>
+									<p>Within this project, I conducted an in-depth analysis of the individual rides undertaken in a bike-sharing system encompassing the expansive San Francisco Bay Area.</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/Ezulu-Chinwendu/fordgobike_analysis/blob/main/Part_I_exploration.ipynb" class="button">View Project</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										
+										<h2><a href="https://github.com/Ezulu-Chinwendu/PowerBI_SalesDashboard">Sales Dashboard<br />
+										</a></h2>
+									</header>
+									<a href="https://github.com/Ezulu-Chinwendu/PowerBI_SalesDashboard" class="image fit"><img src="images/SalesDashboard.png" alt="" /></a>
+									<p>I developed an impactful Sales Dashboard using Power BI to analyze and visualize critical sales metrics and performance data.</p>
+									<ul class="actions special"
+										<li><a href="https://github.com/Ezulu-Chinwendu/PowerBI_SalesDashboard" class="button">View Project</a></li>
+									</ul>
+								</article><article>
+									<header>
+										
+										<h2><a href="https://github.com/Ezulu-Chinwendu/LinkedIn_Profile_Analysis">Linked Profile Analysis<br />
+										</a></h2>
+									</header>
+									<a href="https://github.com/Ezulu-Chinwendu/LinkedIn_Profile_Analysis" class="image fit"><img src="images/LinkedIn_P.png" alt="" /></a>
+									<p>I Utilized Power BI to conduct an in-depth analysis of my LinkedIn profile, extracting relevant data and metrics to evaluate its performance and impact.</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/Ezulu-Chinwendu/LinkedIn_Profile_Analysis" class="button">View Project</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										
+										<h2><a href="https://public.tableau.com/app/profile/ezulu.chinwedu">Tableau Visuals<br />
+										</a></h2>
+									</header>
+									<a href="https://public.tableau.com/app/profile/ezulu.chinwedu" class="image fit"><img src="images/Tableau.png" alt="" /></a>
+									<p>I leveraged Tableau Public as a powerful tool to create engaging and interactive data visualizations and dashboards that effectively communicate insights.</p>
+									<ul class="actions special">
+										<li><a href="https://public.tableau.com/app/profile/ezulu.chinwedu" class="button">View Project</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										
+										<h2><a href="https://app.powerbi.com/groups/me/list">Power BI Visuals<br />
+										</a></h2>
+									</header>
+									<a href="https://app.powerbi.com/groups/me/list" class="image fit"><img src="images/Power BI.jpg" alt="" /></a>
+									<p>I utilized Power BI to extract, transform, and develop captivating and interactive data visualizations and dashboards.</p>
+									<ul class="actions special">
+										<li><a href="https://app.powerbi.com/groups/me/list" class="button">View Project</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										
+										<h2><a href="https://github.com/Ezulu-Chinwendu/TMDb_movies_analysis/blob/main/Investigate_a_Dataset%20(1).ipynb">The Movie Database Analysis In Jupyter Notebook<br />
+										</a></h2>
+									</header>
+									<a href="https://github.com/Ezulu-Chinwendu/TMDb_movies_analysis/blob/main/Investigate_a_Dataset%20(1).ipynb" class="image fit"><img src="images/tmdb1.jpeg" alt="" /></a>
+									<p>In this project, we analysed the dataset containing information about 10,000 movies collected from The Movie Database (TMDb), including user ratings and revenue.</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/Ezulu-Chinwendu/TMDb_movies_analysis/blob/main/Investigate_a_Dataset%20(1).ipynb" class="button">View Project</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										
+										<h2><a href="https://github.com/Ezulu-Chinwendu/WeRateDogs_analysis/blob/main/wrangle_act%20(1).ipynb">Analysis of WeRateDogs Twitter Account<br />
+										</a></h2>
+									</header>
+									<a href="https://github.com/Ezulu-Chinwendu/WeRateDogs_analysis/blob/main/wrangle_act%20(1).ipynb" class="image fit"><img src="images/weratedogs.jpeg" alt="" /></a>
+									<p>In this project, Jupyter Notebook was utilized as the primary platform for conducting the analysis of the WeRateDogs Twitter account. A subset of the dataset was extracted using the Twitter API, enabling us to gain valuable insights and perform comprehensive examinations.</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/Ezulu-Chinwendu/WeRateDogs_analysis/blob/main/wrangle_act%20(1).ipynb" class="button">View Project</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										
+										<h2><a href="https://github.com/Ezulu-Chinwendu/Excel_Projects/blob/main/Excel%20Project%20Dataset.xlsx">Excel Project <br />
+										</a></h2>
+									</header>
+									<a href="https://github.com/Ezulu-Chinwendu/Excel_Projects/blob/main/Excel%20Project%20Dataset.xlsx" class="image fit"><img src="images/Excel Bike.png" alt="" /></a>
+									<p>I conducted data cleaning and developed a comprehensive dashboard for a dataset pertaining to bike sales. </p>
+									<ul class="actions special">
+										<li><a href="https://github.com/Ezulu-Chinwendu/Excel_Projects/blob/main/Excel%20Project%20Dataset.xlsx" class="button">View Project</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										
+										<h2><a href="https://github.com/Ezulu-Chinwendu/SQLProjects/blob/main/SQLProject.sql">SQL Project <br />
+										</a></h2>
+									</header>
+									<a href="https://github.com/Ezulu-Chinwendu/SQLProjects/blob/main/SQLProject.sql" class="image fit"><img src="images/Covid.jpeg" alt="" /></a>
+									<p>In this project, I leveraged the robust capabilities of MS SQL Server to conduct a comprehensive exploration and derive valuable insights from the available COVID-related datasets.</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/Ezulu-Chinwendu/SQLProjects/blob/main/SQLProject.sql" class="button">View Project</a></li>
+									</ul>
+								</article>
+								
+						<section class="split contact">
+							<section class="alt">
+								<h3>Location</h3>
+								<p>Lagos, Nigeria </p>
+							</section>
+							<section>
+								<h3>Phone</h3>
+								<p><a href="#">+2348103919099</a></p>
+							</section>
+							<section>
+								<h3>Email</h3>
+								<p><a href="#">ezuluchinwe1@gmail.com | priscillaezulu1@gmail.com</a></p>
+							</section>
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">
+									<li><a href="https://www.linkedin.com/in/ezuluchinwe/" class="icon brands alt fa-linkedin"><span class="label">linkedin</span></a></li>
+									<li><a href="https://github.com/Ezulu-Chinwendu/" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</section>
+						</section>
+					</footer>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
