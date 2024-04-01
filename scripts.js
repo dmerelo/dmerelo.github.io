@@ -1,15 +1,15 @@
-document.addEventListener('DOMContentLoaded', function() {
-    const links = document.querySelectorAll('nav ul li a');
-    
-    for (const link of links) {
-        link.addEventListener('click', function(e) {
-            e.preventDefault();
-            const targetId = this.getAttribute('href');
-            const targetSection = document.querySelector(targetId);
-            window.scrollTo({
-                top: targetSection.offsetTop,
-                behavior: 'smooth'
-            });
-        });
-    }
+$(document).ready(function() {
+    // Navegação suave entre as seções
+    $('a.scrolly').click(function(e) {
+        e.preventDefault();
+        $('html, body').animate({
+            scrollTop: $($(this).attr('href')).offset().top
+        }, 500);
+    });
+
+    // Animação de fade-in quando a página carrega
+    $('body').addClass('is-preload');
+    window.setTimeout(function() {
+        $('body').removeClass('is-preload');
+    }, 100);
 });
