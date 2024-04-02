@@ -73,16 +73,18 @@ footer {
     }
 }
 
-/* Ajustes para o projeto em destaque e imagens */
-.projeto-destaque {
-    margin: 20px auto;
-    max-width: 50%; /* Ajuste para melhor destaque */
-    text-align: center;
+.projeto.destaque {
+    margin: 0 auto; /* Adiciona margem automática nas laterais */
+    max-width: 60%; /* ou a largura que você preferir */
+    box-shadow: 0 0 10px rgba(0,0,0,0.2); /* Opcional: adiciona sombra para destacar */
+    padding: 20px; /* Opcional: adiciona um pouco de espaço interno */
 }
 
-.imagem-destaque, .projeto-destaque .image.main img {
-    width: 100%; /* Ajuste para a imagem se adaptar ao contêiner */
-    height: auto; /* Mantém a proporção da imagem */
+/* Para garantir que a imagem dentro do projeto em destaque também esteja centralizada e se ajuste bem */
+.projeto.destaque .image.main img {
+    width: 60%; /* faz com que a imagem se ajuste à largura do contêiner */
+    height: auto; /* mantém a proporção da imagem */
+    display: block; /* garante que a imagem não tenha espaço extra embaixo */
 }
 
 /* Estilos para Outros Projetos */
