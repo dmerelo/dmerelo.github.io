@@ -74,7 +74,7 @@ footer {
 }
 
 .projeto.destaque {
-    margin: 0 auto; /* Adiciona margem automática nas laterais */
+    margin: 20 auto; /* Adiciona margem automática nas laterais */
     max-width: 60%; /* ou a largura que você preferir */
     box-shadow: 0 0 10px rgba(0,0,0,0.2); /* Opcional: adiciona sombra para destacar */
     padding: 20px; /* Opcional: adiciona um pouco de espaço interno */
@@ -93,7 +93,7 @@ footer {
     flex-wrap: wrap;
     justify-content: space-between; /* Distribuição uniforme */
     margin: 20px auto;
-    max-width: 80%;
+    max-width: 100%;
 }
 
 .projeto {
