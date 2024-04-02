@@ -46,7 +46,11 @@ header {
 }
 
 main {
-    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Isso garante que o main ocupe no mínimo a altura total da viewport, ajuste conforme necessário */
 }
 
 section {
@@ -74,10 +78,11 @@ footer {
 }
 
 .projeto.destaque {
-    margin: 4 auto; /* Adiciona margem automática nas laterais */
-    max-width: 60%; /* ou a largura que você preferir */
-    box-shadow: 0 0 10px rgba(0,0,0,0.2); /* Opcional: adiciona sombra para destacar */
-    padding: 20px; /* Opcional: adiciona um pouco de espaço interno */
+    width: 100%; /* Ajuste a largura conforme necessário */
+    max-width: 960px; /* Defina uma largura máxima para o conteúdo não ficar muito estendido em telas grandes */
+    margin: 0 auto; /* Isso centraliza o artigo horizontalmente */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Apenas um toque visual, opcional */
+    padding: 20px; /* Espaçamento interno, opcional */
 }
 
 /* Para garantir que a imagem dentro do projeto em destaque também esteja centralizada e se ajuste bem */
