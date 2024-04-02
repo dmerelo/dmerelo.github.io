@@ -104,14 +104,14 @@ footer {
 }
 .projeto-destaque {
     margin: 20px auto;
-    max-width: 80%; /* Reduz a largura máxima para uma proporção menor */
+    max-width: 60%; /* Reduz a largura máxima para uma proporção menor */
     text-align: center;
 }
 
 /* Estilização adicional para imagem/contêiner do projeto em destaque */
 .imagem-destaque {
     width: 100%; /* Faz a imagem preencher o contêiner */
-    height: auto; /* Mantém a proporção da imagem */
+    height: 600px; /* Mantém a proporção da imagem */
 }
 
 .post.featured .major {
@@ -119,8 +119,8 @@ footer {
 }
 
 .post.featured .image.main img {
-    width: 100%;
-    height: auto;
+    width: 60%;
+    height: 600px;
     margin-bottom: 1rem;
 }
 
@@ -152,7 +152,7 @@ footer {
   /* Ajustes para Responsividade */
   @media (max-width: 768px) {
     .projeto {
-      width: 90%; /* Ajusta para que cada projeto ocupe praticamente toda a largura em dispositivos menores */
+      width: 60%; /* Ajusta para que cada projeto ocupe praticamente toda a largura em dispositivos menores */
       margin: 10px auto;
     }
   }
