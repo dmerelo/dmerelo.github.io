@@ -72,3 +72,33 @@ footer {
         display: block;
     }
 }
+/* Centralizando o código do GitHub */
+.codigo-github {
+    display: flex;
+    justify-content: center; /* Alinha horizontalmente ao centro */
+    align-items: center; /* Alinha verticalmente ao centro */
+    margin-top: 20px; /* Espaço acima do link */
+}
+
+.codigo-github a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.github-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+/* Estilos para as imagens do projeto */
+.imagem-projeto {
+    width: 400px;
+    height: 200px;
+    margin-top: 10px;
+    display: block; /* Faz com que cada imagem ocupe sua própria linha */
+    margin-left: auto; /* Junto com margin-right: auto, centraliza a imagem */
+    margin-right: auto;
+}
