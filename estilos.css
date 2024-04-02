@@ -102,3 +102,59 @@ footer {
     margin-left: auto; /* Junto com margin-right: auto, centraliza a imagem */
     margin-right: auto;
 }
+/* Estilos para o Projeto em Destaque */
+.post.featured {
+    background-color: var(--cor-primaria);
+    color: var(--cor-texto);
+    margin-bottom: 2rem;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.post.featured .major {
+    margin-bottom: 1rem;
+}
+
+.post.featured .image.main img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.post.featured .actions.special .button.large {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-texto);
+    font-size: 1.25em;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Estilos para os Outros Projetos (Posts) */
+.posts article {
+    background-color: var(--cor-texto);
+    color: var(--cor-texto-secundaria);
+    margin-bottom: 2rem;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.posts .image.fit img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.posts .actions.special .button {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-texto);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Ajuste para o hover dos botões */
+.actions.special .button:hover {
+    background-color: #555;
+    transition: background-color 0.5s;
+}
