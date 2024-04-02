@@ -114,17 +114,17 @@ footer {
     height: 600px; /* Mantém a proporção da imagem */
 }
 
-.post.featured .major {
+.projeto-destaque .major {
     margin-bottom: 1rem;
 }
 
-.post.featured .image.main img {
+.projeto-destaque .image.main img {
     width: 60%;
     height: 600px;
     margin-bottom: 1rem;
 }
 
-.post.featured .actions.special .button.large {
+.projeto-destaque .actions.special .button.large {
     background-color: var(--cor-secundaria);
     color: var(--cor-texto);
     font-size: 1.25em;
