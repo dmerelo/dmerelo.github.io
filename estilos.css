@@ -74,7 +74,7 @@ footer {
 }
 
 .projeto.destaque {
-    margin: 20 auto; /* Adiciona margem automática nas laterais */
+    margin: 4 auto; /* Adiciona margem automática nas laterais */
     max-width: 60%; /* ou a largura que você preferir */
     box-shadow: 0 0 10px rgba(0,0,0,0.2); /* Opcional: adiciona sombra para destacar */
     padding: 20px; /* Opcional: adiciona um pouco de espaço interno */
