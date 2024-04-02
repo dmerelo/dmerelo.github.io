@@ -72,96 +72,41 @@ footer {
         display: block;
     }
 }
-/* Centralizando o código do GitHub */
-.codigo-github {
-    display: flex;
-    justify-content: center; /* Alinha horizontalmente ao centro */
-    align-items: center; /* Alinha verticalmente ao centro */
-    margin-top: 20px; /* Espaço acima do link */
-}
 
-.codigo-github a {
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    color: black;
-}
-
-.github-icon {
-    width: 30px;
-    height: 30px;
-    margin-right: 5px;
-}
-
-/* Estilos para as imagens do projeto */
-.imagem-projeto {
-    width: 400px;
-    height: 200px;
-    margin-top: 10px;
-    display: block; /* Faz com que cada imagem ocupe sua própria linha */
-    margin-left: auto; /* Junto com margin-right: auto, centraliza a imagem */
-    margin-right: auto;
-}
+/* Ajustes para o projeto em destaque e imagens */
 .projeto-destaque {
     margin: 20px auto;
-    max-width: 60%; /* Reduz a largura máxima para uma proporção menor */
+    max-width: 50%; /* Ajuste para melhor destaque */
     text-align: center;
 }
 
-/* Estilização adicional para imagem/contêiner do projeto em destaque */
-.imagem-destaque {
-    width: 50%; /* Faz a imagem preencher o contêiner */
-    height: 600px; /* Mantém a proporção da imagem */
-}
-
-.projeto-destaque .major {
-    margin-bottom: 1rem;
-}
-
-.projeto-destaque .image.main img {
-    width: 50%;
-    height: 400px;
-    margin-bottom: 1rem;
-}
-
-.image.main {
-    width: 50%;
-    height: 400px;
-    margin-bottom: 1rem;
-}
-
-.projeto-destaque .actions.special .button.large {
-    background-color: var(--cor-secundaria);
-    color: var(--cor-texto);
-    font-size: 1.25em;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
+.imagem-destaque, .projeto-destaque .image.main img {
+    width: 100%; /* Ajuste para a imagem se adaptar ao contêiner */
+    height: auto; /* Mantém a proporção da imagem */
 }
 
 /* Estilos para Outros Projetos */
-.outros-projetos {
+.outros-projetos, .projeto {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between; /* Distribuição uniforme */
     margin: 20px auto;
     max-width: 80%;
-  }
-  
-  .projeto {
-    width: 45%; /* Ajusta para dois projetos por linha */
-    margin: 10px;
+}
+
+.projeto {
+    width: 48%; /* Dois projetos por linha com espaço entre eles */
+    margin: 10px 0; /* Espaçamento vertical */
     box-shadow: 0 0 5px rgba(0,0,0,0.1);
     text-align: center;
-  }
-  
-  /* Ajustes para Responsividade */
-  @media (max-width: 768px) {
+}
+
+/* Ajustes para Responsividade */
+@media (max-width: 768px) {
     .projeto {
-      width: 60%; /* Ajusta para que cada projeto ocupe praticamente toda a largura em dispositivos menores */
-      margin: 10px auto;
+        width: 100%; /* Cada projeto ocupa toda a largura em dispositivos menores */
     }
-  }
+}
 
 /* Ajuste para o hover dos botões */
 .actions.special .button:hover {
