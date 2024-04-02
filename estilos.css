@@ -110,7 +110,7 @@ footer {
 
 /* Estilização adicional para imagem/contêiner do projeto em destaque */
 .imagem-destaque {
-    width: 100%; /* Faz a imagem preencher o contêiner */
+    width: 60%; /* Faz a imagem preencher o contêiner */
     height: 600px; /* Mantém a proporção da imagem */
 }
 
