@@ -102,13 +102,16 @@ footer {
     margin-left: auto; /* Junto com margin-right: auto, centraliza a imagem */
     margin-right: auto;
 }
-/* Estilos para o Projeto em Destaque */
-.post.featured {
-    background-color: var(--cor-primaria);
-    color: var(--cor-texto);
-    margin-bottom: 2rem;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+.projeto-destaque {
+    margin: 20px auto;
+    max-width: 80%; /* Reduz a largura máxima para uma proporção menor */
+    text-align: center;
+}
+
+/* Estilização adicional para imagem/contêiner do projeto em destaque */
+.imagem-destaque {
+    width: 100%; /* Faz a imagem preencher o contêiner */
+    height: auto; /* Mantém a proporção da imagem */
 }
 
 .post.featured .major {
@@ -130,28 +133,29 @@ footer {
     cursor: pointer;
 }
 
-/* Estilos para os Outros Projetos (Posts) */
-.posts article {
-    background-color: var(--cor-texto);
-    color: var(--cor-texto-secundaria);
-    margin-bottom: 2rem;
-    padding: 20px;
+/* Estilos para Outros Projetos */
+.outros-projetos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px auto;
+    max-width: 80%;
+  }
+  
+  .projeto {
+    width: 45%; /* Ajusta para dois projetos por linha */
+    margin: 10px;
     box-shadow: 0 0 5px rgba(0,0,0,0.1);
-}
-
-.posts .image.fit img {
-    width: 100%;
-    height: auto;
-    margin-bottom: 1rem;
-}
-
-.posts .actions.special .button {
-    background-color: var(--cor-secundaria);
-    color: var(--cor-texto);
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-}
+    text-align: center;
+  }
+  
+  /* Ajustes para Responsividade */
+  @media (max-width: 768px) {
+    .projeto {
+      width: 90%; /* Ajusta para que cada projeto ocupe praticamente toda a largura em dispositivos menores */
+      margin: 10px auto;
+    }
+  }
 
 /* Ajuste para o hover dos botões */
 .actions.special .button:hover {
