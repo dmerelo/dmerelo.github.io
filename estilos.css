@@ -124,6 +124,12 @@ footer {
     margin-bottom: 1rem;
 }
 
+.image.main {
+    width: 50%;
+    height: 400px;
+    margin-bottom: 1rem;
+}
+
 .projeto-destaque .actions.special .button.large {
     background-color: var(--cor-secundaria);
     color: var(--cor-texto);
