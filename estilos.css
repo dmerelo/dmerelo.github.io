@@ -87,6 +87,11 @@ footer {
 
 /* Para garantir que a imagem dentro do projeto em destaque também esteja centralizada e se ajuste bem */
 .projeto.destaque .image.main img {
+    width: 100%; /* Ajuste a largura conforme necessário */
+    max-width: 960px; /* Defina uma largura máxima para o conteúdo não ficar muito estendido em telas grandes */
+    margin: 0 auto; /* Isso centraliza o artigo horizontalmente */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Apenas um toque visual, opcional */
+    padding: 20px;
     width: 60%; /* faz com que a imagem se ajuste à largura do contêiner */
     height: auto; /* mantém a proporção da imagem */
     display: block; /* garante que a imagem não tenha espaço extra embaixo */
@@ -94,18 +99,19 @@ footer {
 
 /* Estilos para Outros Projetos */
 .outros-projetos, .projeto {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between; /* Distribuição uniforme */
-    margin: 20px auto;
-    max-width: 100%;
+    width: 100%; /* Ajuste a largura conforme necessário */
+    max-width: 960px; /* Defina uma largura máxima para o conteúdo não ficar muito estendido em telas grandes */
+    margin: 0 auto; /* Isso centraliza o artigo horizontalmente */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Apenas um toque visual, opcional */
+    padding: 20px;
 }
 
 .projeto {
-    width: 48%; /* Dois projetos por linha com espaço entre eles */
-    margin: 10px 0; /* Espaçamento vertical */
-    box-shadow: 0 0 5px rgba(0,0,0,0.1);
-    text-align: center;
+    width: 100%; /* Ajuste a largura conforme necessário */
+    max-width: 960px; /* Defina uma largura máxima para o conteúdo não ficar muito estendido em telas grandes */
+    margin: 0 auto; /* Isso centraliza o artigo horizontalmente */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Apenas um toque visual, opcional */
+    padding: 20px;
 }
 
 /* Ajustes para Responsividade */
