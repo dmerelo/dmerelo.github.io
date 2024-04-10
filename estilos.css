@@ -1,5 +1,5 @@
 :root {
-    --cor-primaria: #000000; /* Mudança para preto */
+    --cor-primaria: #000000; /* Preto */
     --cor-secundaria: #333;
     --cor-fundo: #f4f4f4;
     --cor-texto: #ffffff;
@@ -31,11 +31,11 @@ nav ul li a {
     color: var(--cor-texto);
     padding: 15px 20px;
     display: inline-block;
+    transition: background-color 0.5s; /* Aplicar transição ao estado padrão */
 }
 
 nav ul li a:hover {
     background-color: #555;
-    transition: background-color 0.5s;
 }
 
 header {
@@ -50,7 +50,7 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 100vh; /* Isso garante que o main ocupe no mínimo a altura total da viewport, ajuste conforme necessário */
+    min-height: 100vh;
 }
 
 section {
@@ -77,58 +77,26 @@ footer {
     }
 }
 
-.projeto.destaque {
-    width: 100%; /* Ajuste a largura conforme necessário */
-    max-width: 960px; /* Defina uma largura máxima para o conteúdo não ficar muito estendido em telas grandes */
-    margin: 0 auto; /* Isso centraliza o artigo horizontalmente */
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Apenas um toque visual, opcional */
-    padding: 20px; /* Espaçamento interno, opcional */
-}
-
-/* Para garantir que a imagem dentro do projeto em destaque também esteja centralizada e se ajuste bem */
-.projeto.destaque .image.main img {
-    width: 100%; /* Ajuste a largura conforme necessário */
-    max-width: 960px; /* Defina uma largura máxima para o conteúdo não ficar muito estendido em telas grandes */
-    margin: 0 auto; /* Isso centraliza o artigo horizontalmente */
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Apenas um toque visual, opcional */
+.projeto.destaque, .outros-projetos, .projeto .image.main img {
+    max-width: 960px;
+    margin: 0 auto;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     padding: 20px;
-    width: 60%; /* faz com que a imagem se ajuste à largura do contêiner */
-    height: auto; /* mantém a proporção da imagem */
-    display: block; /* garante que a imagem não tenha espaço extra embaixo */
+    width: 60%;
+    height: auto;
+    display: block;
 }
 
-/* Estilos para Outros Projetos */
-.outros-projetos, .projeto .image.main img {
-    width: 100%; /* Ajuste a largura conforme necessário */
-    max-width: 960px; /* Defina uma largura máxima para o conteúdo não ficar muito estendido em telas grandes */
-    margin: 0 auto; /* Isso centraliza o artigo horizontalmente */
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Apenas um toque visual, opcional */
-    padding: 20px;
-    width: 60%; /* faz com que a imagem se ajuste à largura do contêiner */
-    height: auto; /* mantém a proporção da imagem */
-    display: block; /* garante que a imagem não tenha espaço extra embaixo */
-}
-
-.projeto .image.main img {
-   width: 100%; /* Ajuste a largura conforme necessário */
-    max-width: 960px; /* Defina uma largura máxima para o conteúdo não ficar muito estendido em telas grandes */
-    margin: 0 auto; /* Isso centraliza o artigo horizontalmente */
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Apenas um toque visual, opcional */
-    padding: 20px;
-    width: 60%; /* faz com que a imagem se ajuste à largura do contêiner */
-    height: auto; /* mantém a proporção da imagem */
-    display: block; /* garante que a imagem não tenha espaço extra embaixo */
-}
-
-/* Ajustes para Responsividade */
 @media (max-width: 768px) {
     .projeto {
-        width: 100%; /* Cada projeto ocupa toda a largura em dispositivos menores */
+        width: 100%;
     }
 }
 
-/* Ajuste para o hover dos botões */
-.actions.special .button:hover {
+.actions.special .button, nav ul li a {
+    transition: background-color 0.5s; /* Consistência na transição */
+}
+
+.actions.special .button:hover, nav ul li a:hover {
     background-color: #555;
-    transition: background-color 0.5s;
 }
