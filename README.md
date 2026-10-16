@@ -2,7 +2,7 @@
 
 Personal portfolio website published with GitHub Pages.
 
-The site is being repositioned to reflect my current work as a **Senior Data Engineer**, with emphasis on **AWS, Python, SQL, ETL/ELT, data pipelines and cloud architecture**.
+The site is being repositioned to reflect my current work as a **Data Engineer**, with emphasis on **AWS, Python, SQL, ETL/ELT, data pipelines and cloud architecture**.
 
 ## Current technical portfolio
 
